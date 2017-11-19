@@ -1,6 +1,6 @@
 PODS:
-  - Permission/Core (2.0.3)
-  - Permission/Location (2.0.3):
+  - Permission/Core (2.0.4)
+  - Permission/Location (2.0.4):
     - Permission/Core
   - RxPermission/Core (1.0.0):
     - Permission/Core
@@ -8,20 +8,20 @@ PODS:
   - RxPermission/Location (1.0.0):
     - Permission/Location
     - RxPermission/Core
-  - RxSwift (3.1.0)
+  - RxSwift (4.0.0)
 
 DEPENDENCIES:
   - RxPermission/Location (from `../`)
 
 EXTERNAL SOURCES:
   RxPermission:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  Permission: ef50195e97672de1946f98da7fd71fbfbcf9c23f
-  RxPermission: e0cc69f4255b0e1c333a5da8d53cdb62cda8c9f3
-  RxSwift: 83ff553e7593fdfdcb2562933a64c0284dffdadc
+  Permission: 6853b9694e66a6c9197468c66d1935c3629cbf9c
+  RxPermission: 34f2f8b2762240e630f36fec404f2ef75c212a59
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
 
-PODFILE CHECKSUM: 0866b303d616d0f589243606a355243292262a92
+PODFILE CHECKSUM: cd0a926a155db9218e6cb71eec1b1857b7b2c1fa
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.3.1
